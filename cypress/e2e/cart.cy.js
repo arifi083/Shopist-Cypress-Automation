@@ -176,7 +176,7 @@ describe('Cart actions suite', () => {
        // cy.visit('https://shopist.io/cart')
         Navbar.clickChairs()
         ProductsPage.isLoaded()
-        ProductsPage.clickOnProduct(chairsData.product09)
+        ProductsPage.clickOnProduct(chairsData.product09) 
         ProductsPage.verifySoldOutMessage()
         cy.isVisible1(ProductsPage.soldOutModalContinueButton)
         ProductsPage.clickSoldOutContinue()

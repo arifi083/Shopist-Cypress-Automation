@@ -30,7 +30,7 @@ export default class CartPage extends BasePage {
     }
 
     static addOneQuantity(){
-        cy.get(this.plusButton).click()
+        cy.get(this.plusButton).click() 
     }
 
     static isLoaded(){

@@ -10,7 +10,7 @@ export default class ProductDetailsPage extends BasePage {
     static productLayout = '.item'
 
     static isLoaded(){
-        cy.isVisible1(this.productLayout);
+        cy.isVisible1(this.productLayout); 
     }
 
     static clickAddTocart(){

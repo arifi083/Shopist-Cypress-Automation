@@ -35,3 +35,4 @@ Cypress.Commands.add('isVisible1', selector => {
 Cypress.Commands.add('isHidden', selector => {
     cy.get(selector).should('not.exist')
 })
+ 
